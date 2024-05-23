@@ -39,8 +39,11 @@ Open the [LLMs Notebook]() and follow the instructions in the noteook.
 
 What will be covered in the noteook
 (1) Use a pretrained models in huggingface to accomplish Text summarization
+
 (2) Use a pretrained models in huggingface to accomplish Text generation
+
 (3) Use a pretrained models in huggingface to accomplish Question Answering
+
 (4) To do exercises to challenge yourself
 
 

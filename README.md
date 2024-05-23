@@ -49,3 +49,24 @@ What will be covered in the noteook:
 
 
 <!-- #endregion -->
+
+**References**
+
+1. [HuggingFace CV examples](https://huggingface.co/datasets)
+
+
+**Inspiration**
+
+
+
+| Name              | GitHub                                            | Affiliation                                     |
+|-------------------|---------------------------------------------------|-------------------------------------------------|
+| Cedric Kiplimo    | [@kiplimok](https://github.com/kiplimock)         | [DeKUT-DSAIL](https://dekut-dsail.github.io)    |
+| Teofilo Ligawa    | [@teofizzy](https://github.com/teofizzy)          | [DeKUT-DSAIL](https://dekut-dsail.github.io)    |
+| Samuel Mbatia     | [@mbatiasonic](https://github.com/mbatiasonic)    | [DeKUT-DSAIL](https://dekut-dsail.github.io)    |
+| Andreas Damianou  | [@adamian](https://github.com/adamian)            | [Spotify](http://andreasdamianou.com/)          |
+
+
+## Questions
+
+Please ask any questions through this [form](https://forms.gle/cWTba8SHamqhtrP38)

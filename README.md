@@ -7,7 +7,7 @@ Contributors : `Samuel Mbatia`, `Teofilo Ligawa`, `Cedric Kiplimo`, `Andreas Dam
 
 **Introduction**
 
-Natural language processing (NLP) is the ability of a computer program to understand human language as it's spoken and written -- referred to as natural language[1](https://www.oracle.com/ke/artificial-intelligence/what-is-natural-language-processing/). It's a component of artificial intelligence (AI).Natural language processing has the ability to interrogate the data with natural language text or voice.
+Natural language processing (NLP) is the ability of a computer program to understand human language as it's spoken and written -- referred to as natural language[[1]](https://www.oracle.com/ke/artificial-intelligence/what-is-natural-language-processing/). It's a component of artificial intelligence (AI).Natural language processing has the ability to interrogate the data with natural language text or voice.
 
 **Topics:**
 
@@ -37,7 +37,8 @@ Here we shall utilize [huggingface](https://huggingface.co/models) pretrained mo
 
 Open the [LLMs Notebook]() and follow the instructions in the noteook.
 
-What will be covered in the noteook
+What will be covered in the noteook:
+
 (1) Use a pretrained models in huggingface to accomplish Text summarization
 
 (2) Use a pretrained models in huggingface to accomplish Text generation

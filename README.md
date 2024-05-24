@@ -53,7 +53,7 @@ Some of the areas covered in this section include:
 * Understand various vectorization techniques.
 * Use probability to predict the next word in a sentence.
 
-* Open the [Simple NLP Pre-Lab Notebook](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/simple_nlp_prelab.ipynb) <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/simple_nlp_prelab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> and follow the steps as outlined in the notebook.
+* Open the [Simple NLP Pre-Lab Notebook](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/simple_nlp_prelab.ipynb) <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/simple_nlp_prelab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>, **create a copy on your google drive** so that you can have our own copy and follow the steps as outlined in the notebook.
 
 <!-- #endregion -->
 
@@ -69,7 +69,7 @@ LLMs are pre-trained on a massive amount of data. They are extremely flexible be
 
 Here we shall utilize [huggingface](https://huggingface.co/models)[[5]](https://huggingface.co/docs/hub/index) pretrained models to accomplish tasks such as Text generation,Text summmarization and Question answering. Using the steps above to create a huggingface account and accessing your secret token which will eneble the usage of models in colab , make sure the token is inputted into your google colab as shown in the steps above.
 
-Open the [LLMs Notebook](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/DSA_LLM_PreLab.ipynb) <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/DSA_LLM_PreLab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> and follow the steps as outlined in the notebook.
+Open the [LLMs Notebook](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/DSA_LLM_PreLab.ipynb) <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/DSA_LLM_PreLab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>, **create a copy on your google drive** so that you can have our own copy and follow the steps as outlined in the notebook.
 
 What will be covered in the noteook:
 

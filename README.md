@@ -24,11 +24,15 @@ Level: `Beginner`
 - A [Hugging Face](https://huggingface.co/join)  account
 
 - When done creating the hugging face account ,you have to create an acess token and load it into your Google Colab so as to acess some models.
+- 
   *access the settings part on the top right hand side
+  ![HuggingFace Setting](https://github.com/Marconi-Lab/dsa_2024/assets/54037190/8423ffd0-a378-47c1-907d-c0b6837daea3)
   
   *access the tokens and create one.
+  ![Huggingface Access Tokens](https://github.com/Marconi-Lab/dsa_2024/assets/54037190/8423ffd0-a378-47c1-907d-c0b6837daea3)
   
   *input it into your colab,then your ready to go.
+  ![Secret Key in Colab](https://github.com/Marconi-Lab/dsa_2024/assets/54037190/8423ffd0-a378-47c1-907d-c0b6837daea3)
 
 <!-- #region -->
 ### A. Basic NLP

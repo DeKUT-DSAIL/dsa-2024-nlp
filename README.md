@@ -26,13 +26,13 @@ Level: `Beginner`
 - When done creating the hugging face account ,you have to create an acess token and load it into your Google Colab so as to acess some models.
 - 
   *access the settings part on the top right hand side
-  ![HuggingFace Setting](https://github.com/Marconi-Lab/dsa_2024/assets/54037190/8423ffd0-a378-47c1-907d-c0b6837daea3)
+  ![HuggingFace Setting](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/assets/access.png)
   
   *access the tokens and create one.
-  ![Huggingface Access Tokens](https://github.com/Marconi-Lab/dsa_2024/assets/54037190/8423ffd0-a378-47c1-907d-c0b6837daea3)
+  ![Huggingface Access Tokens](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/assets/tokens.png)
   
   *input it into your colab,then your ready to go.
-  ![Secret Key in Colab](https://github.com/Marconi-Lab/dsa_2024/assets/54037190/8423ffd0-a378-47c1-907d-c0b6837daea3)
+  ![Secret Key in Colab](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/assets/secretkey.png)
 
 <!-- #region -->
 ### A. Basic NLP

@@ -23,6 +23,13 @@ Level: `Beginner`
 - A [Google Colab](https://colab.research.google.com/) account
 - A [Hugging Face](https://huggingface.co/join)  account
 
+- When done creating the hugging face account ,you have to create an acess token and load it into your Google Colab so as to acess some models.
+  *access the settings part on the top right hand side
+  
+  *access the tokens and create one.
+  
+  *input it into your colab,then your ready to go.
+
 <!-- #region -->
 ### A. Basic NLP
 In the basic NLP section, the focus shall be to familiarize with some foundational concepts in NLP.

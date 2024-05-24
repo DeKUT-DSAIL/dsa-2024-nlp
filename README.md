@@ -58,7 +58,7 @@ LLMs are pre-trained on a massive amount of data. They are extremely flexible be
 
 Here we shall utilize [huggingface](https://huggingface.co/models) pretrained models to accomplish tasks such as Text generation,Text summmarization and Question answering. Using the steps above to create a huggingface account and accessing your secret token which will eneble the usage of models in colab , make sure the token is inputted into your google colab as shown in the steps above.
 
-Open the [LLMs Notebook]() and follow the instructions in the noteook.
+Open the [LLMs Notebook](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/simple_nlp_prelab.ipynb) <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/simple_nlp_prelab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> and follow the steps as outlined in the notebook. and follow the instructions in the noteook. and follow the instructions in the noteook.
 
 What will be covered in the noteook:
 

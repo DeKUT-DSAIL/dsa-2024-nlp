@@ -42,6 +42,8 @@ Some of the areas covered in this section include:
 * Understand various vectorization techniques.
 * Use probability to predict the next word in a sentence.
 
+* Open the [Simple NLP Pre-Lab Notebook]() <a target="_blank" href=""><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> and follow the steps as outlined in the notebook. and follow the instructions in the noteook.
+
 <!-- #endregion -->
 
 <!-- #region -->

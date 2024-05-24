@@ -24,7 +24,28 @@ Level: `Beginner`
 - A [Hugging Face](https://huggingface.co/join)  account
 
 <!-- #region -->
-### B. Large Language Models LLMs with Google Colab and Huggingface
+### A. Basic NLP
+In the basic NLP section, the focus shall be to familiarize with some foundational concepts in NLP.
+
+Some of the areas covered in this section include:
+* Stemming
+* Lemmatization
+* Stopwords
+* Tokenization
+* Text Vectorization
+* Next word probability
+
+#### Objectives
+* Distinguish between stemming and lemmatization.
+* Describe stopwords and why they are removed.
+* Describe tokenization in the context of NLP.
+* Understand various vectorization techniques.
+* Use probability to predict the next word in a sentence.
+
+<!-- #endregion -->
+
+<!-- #region -->
+### B. Large Language Models (LLMs) with Google Colab and Huggingface
 A large language model (LLM) is a statistical language model, trained on a massive amount of data, that can be used to generate and translate text and other content, and perform other natural language processing (NLP) tasks.
 LLMs are typically based on deep learning architectures, such as the Transformer developed by Google in 2017, and can be trained on billions of text and other content.[[2]](https://cloud.google.com/ai/llms)
 Text-driven LLMs are used for a variety of natural language processing tasks, including text generation, machine translation, text summarization, question answering, and creating chatbots that can hold conversations with humans.

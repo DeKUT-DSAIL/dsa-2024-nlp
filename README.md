@@ -74,6 +74,9 @@ What will be covered in the noteook:
 **References**
 
 1. [HuggingFace CV examples](https://huggingface.co/datasets)
+3. Oracle. (n.d.). *What is Natural Language Processing?* Retrieved from [https://www.oracle.com/ke/artificial-intelligence/what-is-natural-language-processing/](https://www.oracle.com/ke/artificial-intelligence/what-is-natural-language-processing/)
+4. McEnery, T., Xiao, R., & Tono, Y. (2006). *Corpus-based language studies: An advanced resource book*. Taylor & Francis.
+5. Wikipedia. (n.d.). *Pointwise mutual information*. Retrieved from [https://en.wikipedia.org/wiki/Pointwise_mutual_information](https://en.wikipedia.org/wiki/Pointwise_mutual_information)
 
 
 **Inspiration**

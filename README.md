@@ -28,10 +28,10 @@ Level: `Beginner`
   *access the settings part on the top right hand side
   ![HuggingFace Setting](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/assets/access.png)
   
-  *access the tokens and create one.
+  *access the tokens and create one.Choose the write type.
   ![Huggingface Access Tokens](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/assets/tokens.png)
   
-  *input it into your colab,then your ready to go.
+  *input it into your colab,then you are ready to go.
   ![Secret Key in Colab](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/assets/secretkey.png)
 
 <!-- #region -->

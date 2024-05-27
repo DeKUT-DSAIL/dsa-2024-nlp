@@ -1,6 +1,6 @@
 # DSA 2024 NLP
 
-© DSA2024. Apache License 2.0.
+© DSA 2024. Apache License 2.0.
 
 Contributors : `Samuel Mbatia`, `Teofilo Ligawa`, `Cedric Kiplimo`, `Andreas Damianou`
 
@@ -46,14 +46,14 @@ Some of the areas covered in this section include:
 * Text Vectorization
 * Next word probability
 
-#### Objectives
+#### Learning Objectives
 * Distinguish between stemming and lemmatization.
 * Describe stopwords and why they are removed.
 * Describe tokenization in the context of NLP.
 * Understand various vectorization techniques.
 * Use probability to predict the next word in a sentence.
 
-* Open the [Simple NLP Pre-Lab Notebook](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/simple_nlp_prelab.ipynb) <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/simple_nlp_prelab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>, **create a copy on your google drive to use for the lab** so that you can have our own copy and follow the steps as outlined in the notebook.
+Open the [Simple NLP Pre-Lab Notebook](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/simple_nlp_prelab.ipynb) <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/simple_nlp_prelab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>, **create a copy on your google drive to use for the lab** so that you can have our own copy and follow the steps as outlined in the notebook.
 
 <!-- #endregion -->
 
@@ -71,20 +71,44 @@ Here we shall utilize [huggingface](https://huggingface.co/models)[[5]](https://
 
 Open the [LLMs Notebook](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/DSA_LLM_PreLab.ipynb) <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/DSA_LLM_PreLab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>, **create a copy on your google drive to use for the lab** so that you can have our own copy and follow the steps as outlined in the notebook.
 
-What will be covered in the noteook:
+#### Learning Objectives
+What will be covered in the notebook:
+* Use a pretrained models in huggingface to accomplish Text summarization
+* Use a pretrained models in huggingface to accomplish Text generation
+* To do exercises to challenge yourself
 
-(1) Use a pretrained models in huggingface to accomplish Text summarization
 
-(2) Use a pretrained models in huggingface to accomplish Text generation
+### C. Prompt Engineering with LLaMA-2
+**Duration: 30 minutes**
 
-(3) Use a pretrained models in huggingface to accomplish Question Answering
+Prompt engineering is the discipline of developing and optimising prompts to effectively use large language models (LLMs) to achieve desired outputs for a wide variety of applications, including research. By developing prompt engineering skills, we are enabled to better understand the capabilities and limitations of these LLMs.
 
-(4) To do exercises to challenge yourself
+The key aspects of prompt engineering include, but are not limited to:
+* Crafting clear prompts: The model's output is significantly affected by the model's output. To get accurate and relevant responses, prompts should be clear, concise, and specific.
+* Providing context: Prompts that include sufficient context within them help the models understand the background and generate more informed responses. Contexts can involve giving background information, setting the scene, or specifying the desired format of the answer.
+* Iterative refinement: Prompt engineering is often an iterative process where initial prompts are continuously adjusted and refined to improve the quality of the response.
+* Instruction precision: Explicity stating what you want from the model can dramatically improve outcomes. Using words like "list", "describe", etc. help guide the model more effectively.
+* Balancing length and detail: Although detailed prompts can provide more guidance, overly long prompts tend to confuse the model. Striking a balance between providing enough details and maintaining brevity is important.
+* Leveraging special tokens: Some models allow the use of special tokens or specific structures to control responses, such as separators or format indicators. `LLaMA-2` is one such model.
+
+#### Prerequisites
+This lab is targeted at Python developers who have some familiarity with LLMs, such as by using ChatGPT or Gemini, but have limited experience in working with LLMs in a programmatic way.
+
+If you're familiar with the underpinnings of LLMs, you'll have a slight advantage. However, familiarity with basic Python and a basic understanding of LLMs will be sufficient to help you get a lot out of this course.
+
+For this lab, we shall be working with the `LLaMA-2` model available at [HuggingFace](https://huggingface.co/TheBloke/Llama-2-13B-chat-GPTQ). In order to download this model for use in this notebook, you will need to install the [transformers](https://pypi.org/project/transformers/) package. Not to worry, the steps for installing it are baked into this Colab notebook and you will not need to take any extra steps, except if you choose to run the notebook locally.
+
+
+#### Learning Objectives
+1. Use a `transformers` pipeline to generate responses from a LLaMA-2 LLM.
+2. Iteratively write precise prompts to get the desired output from the LLM.
+3. Work with the LLaMA-2 prompt template to perform instruction fine-tuning.
+4. Use LLaMA-2 to generate JSON data for potential use in downstream processing tasks
 
 
 <!-- #endregion -->
 
-**References**
+### References
 1. Oracle. (n.d.). *What is Natural Language Processing?* Retrieved from [https://www.oracle.com/ke/artificial-intelligence/what-is-natural-language-processing/](https://www.oracle.com/ke/artificial-intelligence/what-is-natural-language-processing/)
 2. Google Cloud LLMs[https://cloud.google.com/ai/llms](https://cloud.google.com/ai/llms)
 3. McEnery, T., Xiao, R., & Tono, Y. (2006). *Corpus-based language studies: An advanced resource book*. Taylor & Francis.
@@ -94,11 +118,9 @@ What will be covered in the noteook:
 
 **Contributors**
 
-
-
 | Name              | GitHub                                            | Affiliation                                     |
 |-------------------|---------------------------------------------------|-------------------------------------------------|
-| Cedric Kiplimo    | [@kiplimok](https://github.com/kiplimock)         | [DeKUT-DSAIL](https://dekut-dsail.github.io)    |
+| Cedric Kiplimo    | [@kiplimock](https://github.com/kiplimock)         | [DeKUT-DSAIL](https://dekut-dsail.github.io)    |
 | Teofilo Ligawa    | [@teofizzy](https://github.com/teofizzy)          | [DeKUT-DSAIL](https://dekut-dsail.github.io)    |
 | Samuel Mbatia     | [@mbatiasonic](https://github.com/mbatiasonic)    | [DeKUT-DSAIL](https://dekut-dsail.github.io)    |
 | Andreas Damianou  | [@adamian](https://github.com/adamian)            | [Spotify](http://andreasdamianou.com/)          |

@@ -17,8 +17,29 @@ In preparation for the main NLP lab session at DSA 2024, we have prepared some p
 * Prompt Engineering
 
 A separate notebook has been provided for each of these topics and you can run them on Colab. **We strongly advise** that you spare some time to complete these exercises before the main lab session.
-
+<!-- #region -->
+### A. Basic NLP
 For instructions on how to complete each exercise, refer to the [prelab folder](./pre-lab/README.md).
+In the basic NLP section, the focus shall be to familiarize with some foundational concepts in NLP.
+
+Some of the areas covered in this section include:
+* Stemming
+* Lemmatization
+* Stopwords
+* Tokenization
+* Text Vectorization
+* Next word probability
+
+#### Learning Objectives
+* Distinguish between stemming and lemmatization.
+* Describe stopwords and why they are removed.
+* Describe tokenization in the context of NLP.
+* Understand various vectorization techniques.
+* Use probability to predict the next word in a sentence.
+
+To complete the tasks in this part, <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/simple_nlp_prelab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+If you wish to save changes you make to the notebook, please create your own copy.
 
 
 ## 2. Main Lab
@@ -55,21 +76,18 @@ Level: `Beginner`
 In the basic NLP section, the focus shall be to familiarize with some foundational concepts in NLP.
 
 Some of the areas covered in this section include:
-* Stemming
-* Lemmatization
-* Stopwords
-* Tokenization
-* Text Vectorization
-* Next word probability
+* Word Embeddings
+* Named Entity Recognition
+* Sentence Segmentation
+* Parts of Speech Tagging
 
 #### Learning Objectives
-* Distinguish between stemming and lemmatization.
-* Describe stopwords and why they are removed.
-* Describe tokenization in the context of NLP.
-* Understand various vectorization techniques.
-* Use probability to predict the next word in a sentence.
+* Understand sentence segmentation.
+* Understand various ways of getting word embeddings.
+* Understand Part of Speech (POS) tagging.
+* Understand Named Entity Recognition (NER).
 
-To complete the tasks in this part, <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/simple_nlp_prelab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+To complete the tasks in this part, <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/main-lab/basic_nlp_lab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 If you wish to save changes you make to the notebook, please create your own copy.
 

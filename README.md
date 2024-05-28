@@ -7,7 +7,22 @@ Contributors : `Samuel Mbatia`, `Teofilo Ligawa`, `Cedric Kiplimo`, `Andreas Dam
 
 **Introduction**
 
-Natural language processing (NLP) is the ability of a computer program to understand human language as it's spoken and written -- referred to as natural language[[1]](https://www.oracle.com/ke/artificial-intelligence/what-is-natural-language-processing/). It's a component of artificial intelligence (AI).Natural language processing has the ability to interrogate the data with natural language text or voice.
+[Natural language processing (NLP)](https://www.oracle.com/ke/artificial-intelligence/what-is-natural-language-processing/) is the ability of a computer program to understand human language as it's spoken and written -- referred to as natural language. It's a component of artificial intelligence (AI).Natural language processing has the ability to interrogate the data with natural language text or voice.
+
+
+## 1. Prelab Work
+In preparation for the main NLP lab session at DSA 2024, we have prepared some prelab work to help you warm up. Just like the main lab, the prelab is also broken down per topic into the following sections:
+* Basic NLP
+* Large Language Models (LLMs) with Google Colab and Hugging Face Models
+* Prompt Engineering
+
+A separate notebook has been provided for each of these topics and you can run them on Colab. **We strongly advise** that you spare some time to complete these exercises before the main lab session.
+
+For instructions on how to complete each exercise, refer to the [prelab folder](./pre-lab/README.md).
+
+
+## 2. Main Lab
+If you have not attempted the [prelab exercises](#prelab-work), we encourage you to have a look at them first. 
 
 **Topics:**
 
@@ -20,19 +35,20 @@ Level: `Beginner`
 
 **Prerequisites:**
 - Basic knowledge of [Python Programming](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
+- Prior interaction with large language models e.g. by using ChatGPT, will be helpful.
 - A [Google Colab](https://colab.research.google.com/) account
 - A [Hugging Face](https://huggingface.co/join)  account
 
 - When done creating the hugging face account ,you have to create an acess token and load it into your Google Colab so as to acess some models.
 - 
-  *access the settings part on the top right hand side
-  ![HuggingFace Setting](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/assets/access.png)
+  * access the settings part on the top right hand side
+  ![HuggingFace Setting](./assets/access.png)
   
-  *access the tokens and create one.Choose the write type.
-  ![Huggingface Access Tokens](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/assets/tokens.png)
+  * access the tokens and create one.Choose the write type.
+  ![Huggingface Access Tokens](./assets/tokens.png)
   
-  *input it into your colab,then you are ready to go.
-  ![Secret Key in Colab](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/assets/secretkey.png)
+  * input it into your colab,then you are ready to go.
+  ![Secret Key in Colab](./assets/secretkey.png)
 
 <!-- #region -->
 ### A. Basic NLP
@@ -53,7 +69,9 @@ Some of the areas covered in this section include:
 * Understand various vectorization techniques.
 * Use probability to predict the next word in a sentence.
 
-Open the [Simple NLP Pre-Lab Notebook](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/simple_nlp_prelab.ipynb) <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/simple_nlp_prelab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>, **create a copy on your google drive to use for the lab** so that you can have our own copy and follow the steps as outlined in the notebook.
+To complete the tasks in this part, <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/simple_nlp_prelab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+If you wish to save changes you make to the notebook, please create your own copy.
 
 <!-- #endregion -->
 
@@ -69,7 +87,9 @@ LLMs are pre-trained on a massive amount of data. They are extremely flexible be
 
 Here we shall utilize [huggingface](https://huggingface.co/models)[[5]](https://huggingface.co/docs/hub/index) pretrained models to accomplish tasks such as Text generation,Text summmarization and Question answering. Using the steps above to create a huggingface account and accessing your secret token which will eneble the usage of models in colab , make sure the token is inputted into your google colab as shown in the steps above.
 
-Open the [LLMs Notebook](https://github.com/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/DSA_LLM_PreLab.ipynb) <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/DSA_LLM_PreLab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>, **create a copy on your google drive to use for the lab** so that you can have our own copy and follow the steps as outlined in the notebook.
+To complete the tasks in this part, click <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/DSA_LLM_PreLab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> to open the notebook.
+
+If you wish to save changes you make to the notebook, please create your own copy.
 
 #### Learning Objectives
 What will be covered in the notebook:
@@ -104,6 +124,10 @@ For this lab, we shall be working with the `LLaMA-2` model available at [Hugging
 2. Iteratively write precise prompts to get the desired output from the LLM.
 3. Work with the LLaMA-2 prompt template to perform instruction fine-tuning.
 4. Use LLaMA-2 to generate JSON data for potential use in downstream processing tasks
+
+To complete the tasks in this part, click <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/prompt_engineering_prelab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> to open the notebook.
+
+If you wish to save changes you make to the notebook, please create your own copy.
 
 
 <!-- #endregion -->

@@ -41,6 +41,28 @@ To complete the tasks in this part, <a target="_blank" href="https://colab.resea
 
 If you wish to save changes you make to the notebook, please create your own copy.
 
+<!-- #region -->
+### B. Large Language Models (LLMs) with Google Colab and Huggingface
+A large language model (LLM) is a statistical language model, trained on a massive amount of data, that can be used to generate and translate text and other content, and perform other natural language processing (NLP) tasks.
+LLMs are typically based on deep learning architectures, such as the Transformer developed by Google in 2017, and can be trained on billions of text and other content.[[2]](https://cloud.google.com/ai/llms)
+Text-driven LLMs are used for a variety of natural language processing tasks, including text generation, machine translation, text summarization, question answering, and creating chatbots that can hold conversations with humans.
+
+LLMs can also be trained on other types of data, including code, images, audio, video, and more. Google’s [Codey](https://cloud.google.com/vertex-ai/docs/generative-ai/code/code-models-overview), [Imagen](https://cloud.google.com/vertex-ai/docs/generative-ai/image/overview) and [Chirp](https://cloud.google.com/vertex-ai/docs/generative-ai/speech/speech-to-text) are examples of such models that will spawn new applications and help create solutions to the world’s most challenging problems.
+
+LLMs are pre-trained on a massive amount of data. They are extremely flexible because they can be trained to perform a variety of tasks, such as text generation, summarization, and  Question Answering e.t.c. They are also scalable because they can be fine-tuned to specific tasks, which can improve their performance.
+
+Here we shall utilize [huggingface](https://huggingface.co/models)[[5]](https://huggingface.co/docs/hub/index) pretrained models to accomplish tasks such as Text generation,Text summmarization and Question answering. Using the steps above to create a huggingface account and accessing your secret token which will eneble the usage of models in colab , make sure the token is inputted into your google colab as shown in the steps above.
+
+To complete the tasks in this part, click <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/DSA_LLM_PreLab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> to open the notebook.
+
+If you wish to save changes you make to the notebook, please create your own copy.
+#### Learning Objectives
+What will be covered in the notebook:
+* Use a pretrained models in huggingface to accomplish Text summarization
+* Use a pretrained models in huggingface to accomplish Text generation
+* To do exercises to challenge yourself
+
+<!-- #endregion -->
 
 ## 2. Main Lab
 If you have not attempted the [prelab exercises](#prelab-work), we encourage you to have a look at them first. 
@@ -105,7 +127,7 @@ LLMs are pre-trained on a massive amount of data. They are extremely flexible be
 
 Here we shall utilize [huggingface](https://huggingface.co/models)[[5]](https://huggingface.co/docs/hub/index) pretrained models to accomplish tasks such as Text generation,Text summmarization and Question answering. Using the steps above to create a huggingface account and accessing your secret token which will eneble the usage of models in colab , make sure the token is inputted into your google colab as shown in the steps above.
 
-To complete the tasks in this part, click <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/DSA_LLM_PreLab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> to open the notebook.
+To complete the tasks in this part, click Open the [LLMs Lab Notebook](https://github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/main-lab/DSA_Lab_LLMs.ipynb) <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/main-lab/DSA_Lab_LLMs.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> to open the notebook.
 
 If you wish to save changes you make to the notebook, please create your own copy.
 
@@ -113,7 +135,8 @@ If you wish to save changes you make to the notebook, please create your own cop
 What will be covered in the notebook:
 * Use a pretrained models in huggingface to accomplish Text summarization
 * Use a pretrained models in huggingface to accomplish Text generation
-* To do exercises to challenge yourself
+* Use a pretrained model in huggingface together with the haystack framework to accomplish Question answering
+* To do exercise to challenge yourself
 
 
 ### C. Prompt Engineering with LLaMA-2

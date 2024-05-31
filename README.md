@@ -166,10 +166,17 @@ For this lab, we shall be working with the `LLaMA-2` model available at [Hugging
 3. Work with the LLaMA-2 prompt template to perform instruction fine-tuning.
 4. Use LLaMA-2 to generate JSON data for potential use in downstream processing tasks
 
-To complete the tasks in this part, click <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/pre-lab/prompt_engineering_prelab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> to open the notebook.
+To complete the tasks in this part, click <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/main-lab/prompt_engineering.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> to open the notebook.
 
 If you wish to save changes you make to the notebook, please create your own copy.
 
+
+## 3. Postlab Work
+This is some extra work for you to challenge yourself and try out after the main lab session. View the notebook [here](./post-lab/post_lab.ipynb).
+
+To complete the tasks in this part, click <a target="_blank" href="https://colab.research.google.com/github/DeKUT-DSAIL/DSA-2024-NLP/blob/main/post-lab/post_lab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> to open the notebook.
+
+If you wish to save changes you make to the notebook, please create your own copy.
 
 <!-- #endregion -->
 
